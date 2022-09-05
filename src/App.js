@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div style={{ padding: "50px" }}>
+      <h1 style={{ paddingBottom: "20px" }}>昼休みアプリ</h1>
+      <Main />
+       </div>
   );
 }
 
